@@ -19,14 +19,13 @@ function mathButPress(operator) {
 function equalButPress() {
 
 }
-
+//clears everything but memory
 function clearButPress() {
     let prevVal = ''
     let newVal = ''
     let resultVal = ''
     let mathOperator = ''
     let decimalClicked = false
-    let valMemStored = ''
     document.getElementById('entry').value = '0'
 }
 
